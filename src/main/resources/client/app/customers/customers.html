@@ -1,0 +1,13 @@
+<content-header name="Clientes" small="Gerencie os dados dos seus clientes"></content-header>
+
+<section class="content" ng-controller="CustomerController as ctrl">
+  <div class="row">
+     <section class="content">
+        <div role="form">
+            <div class="box-body">
+              <div ng-include="'customers/customersForm.html'"></div>
+            </div>
+            <div class="box-footer" ng-include="'customers/customersTable.html'"></div>
+     </section>
+  </div>
+</section>
