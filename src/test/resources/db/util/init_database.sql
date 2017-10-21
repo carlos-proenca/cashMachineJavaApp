@@ -1,1 +1,0 @@
-INSERT INTO CUSTOMERS (NAME, EMAIL, DOCUMENT, BALANCE) VALUES ('Carlos Eduardo Proença', 'carlos_proenca@live.com', '356.832.118-16', 500);
